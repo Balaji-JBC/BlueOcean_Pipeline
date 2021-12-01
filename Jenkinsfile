@@ -22,6 +22,12 @@ pipeline {
           }
         }
 
+        stage('Stage Z') {
+          steps {
+            sh 'echo \'Hi\''
+          }
+        }
+
       }
     }
 
